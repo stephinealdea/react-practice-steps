@@ -76,7 +76,7 @@ h3 {
 }
 
 .close {
-  position: absolute;
+  /* position: absolute; */
   top: 16px;
   right: 16px;
   border: none;
@@ -88,4 +88,30 @@ h3 {
 
 .close:hover {
   color: #7950f2;
+}
+
+.step-counter-wrapper {
+  text-align: center;
+
+  button {
+    padding: 4px 8px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+
+  .clear {
+    margin-top: 20px;
+  }
+
+  .setter {
+    margin-bottom: 12px;
+  }
+
+  .date-wrapper {
+    margin-top: 30px;
+
+    p {
+      font-size: 24px;
+    }
+  }
 }
